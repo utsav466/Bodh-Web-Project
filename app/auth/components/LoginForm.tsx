@@ -17,7 +17,7 @@ export default function LoginForm() {
     setError("");
 
     try {
-      await new Promise((r) => setTimeout(r, 1000)); // simulate API
+      await new Promise((r) => setTimeout(r, 1000));
 
       if (!email || !password) {
         throw new Error("Email and password are required");

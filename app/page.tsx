@@ -28,7 +28,7 @@ export default function HomePage() {
           Sign Up
         </Link>
         {/* <Link
-          href="/dashboard"
+         
           className="rounded-lg border border-green-600 px-4 py-2 text-green-600 font-medium hover:bg-green-50"
         >
           Dashboard
